@@ -1,0 +1,22 @@
+settings:
+  main-command:
+    name: "esm"
+    aliases: ["easysocialmedia"]
+    enabled: true
+    permission: "easysocialmedia.admin"
+
+  social-command:
+    name: "social"
+    aliases: ["socialmedia", "links"]
+    enabled: true
+    permission: "easysocialmedia.use"
+
+  permissions:
+    use: "easysocialmedia.use"
+    admin: "easysocialmedia.admin"
+
+commands:
+  discord:
+    message: "&7Join our discord at discord.gg/example"
+  website:
+    message: "&aVisit our website: example.com"
