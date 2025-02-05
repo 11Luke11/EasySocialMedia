@@ -164,13 +164,16 @@ public class EasySocialMedia extends JavaPlugin {
 
     private void sendHelp(CommandSender sender) {
         String mainCmd = getConfig().getString("settings.main-command.name");
+        String socialCmd = getConfig().getString("settings.social-command.name");
         List<String> help = messages.getStringList("messages.help")
                 .stream()
-                .map(line -> line.replace("{main}", mainCmd))
+                .map(line -> line.replace("{main}", mainCmd)
+                        .replace("{social}", socialCmd))
                 .collect(Collectors.toList());
 
         help.forEach(line -> sender.sendMessage(color(line)));
     }
+
 
     private void sendSocialMedia(CommandSender sender) {
         String socialCmd = getConfig().getString("settings.social-command.name");

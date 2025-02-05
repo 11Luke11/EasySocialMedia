@@ -8,7 +8,7 @@ messages:
     - "&a/{main} help &7- Show this help"
     - "&a/{main} reload &7- Reload config"
     - "&6&lUser Commands"
-    - "&7Use &e/{social} &7to see the social media links." # {social} Known bug, for now enter it manually, it will be fixed soon.
+    - "&7Use &e/{social} &7to see the social media links."
 
   socialmedia:
     - "&6&lSocial Media Links"
