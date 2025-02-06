@@ -1,22 +1,83 @@
-settings:
-  main-command:
-    name: "esm"
-    aliases: ["easysocialmedia"]
-    enabled: true
-    permission: "easysocialmedia.admin"
+# EasySocialMedia Configuration File
+# This file allows you to customize the plugin's commands, permissions, and messages.
 
-  social-command:
-    name: "social"
-    aliases: ["socialmedia", "links"]
-    enabled: true
-    permission: "easysocialmedia.use"
+# ========================
+# Settings
+# ========================
 
-  permissions:
-    use: "easysocialmedia.use"
-    admin: "easysocialmedia.admin"
+# Main Command Configuration
+# This section defines the primary command for the plugin.
+main-command:
+  name: "esm" # The main command name (e.g., /esm).
+  aliases: ["easysocialmedia"] # Alternative command names (e.g., /easysocialmedia).
+  enabled: true # Set to false to disable this command.
+  permission: "easysocialmedia.admin" # Permission required to use this command. Change as needed.
 
-commands:
-  discord:
-    message: "&7Join our discord at discord.gg/example"
-  website:
-    message: "&aVisit our website: example.com"
+# Social Command Configuration
+# This section defines the command for accessing social media links.
+social-command:
+  name: "socialmedia" # The main command name (e.g., /socialmedia).
+  aliases: ["social", "links"] # Alternative command names (e.g., /social, /links).
+  enabled: true # Set to false to disable this command.
+  permission: "easysocialmedia.use" # Permission required to use this command. Change as needed.
+
+# Permissions
+# This section defines the permissions used by the plugin.
+permissions:
+  use: "easysocialmedia.use" # Permission for using the social media command.
+  admin: "easysocialmedia.admin" # Permission for administrative access.
+
+# ========================
+# Commands
+# ========================
+
+# This section allows you to define custom commands and their corresponding messages.
+# You can add, remove, or modify commands as needed.
+
+# Command Structure:
+# command-name:
+#   message: "Your message here"
+# - Use color codes (e.g., &7 for gray, &a for green) to style your messages.
+
+# Example: Discord Command
+# Usage: /esm discord
+discord:
+  message: "&7Join our Discord at discord.gg/example" # Message displayed when the command is executed.
+
+# Example: Website Command
+# Usage: /esm website
+website:
+  message: "&aVisit our website: example.com" # Message displayed when the command is executed.
+
+# Example: Custom Command 1
+# Usage: /esm example1
+example1:
+  message: "&7This is an example!" # Message displayed when the command is executed.
+
+# Example: Custom Command 2
+# Usage: /esm example2
+example2:
+  message: "&7This is another example!" # Message displayed when the command is executed.
+
+# ========================
+# Notes
+# ========================
+
+# 1. You can add as many commands as you want. Simply follow the structure above.
+# 2. To disable a command, set `enabled: false` in the respective command section.
+# 3. Use permissions to control access to commands. Customize them as needed.
+# 4. Color codes:
+#    - &a: Green
+#    - &7: Gray
+#    - &c: Red
+#    - &e: Yellow
+#    - &b: Aqua
+#    - &f: White
+#    - &0: Black
+#    - &l: Bold
+#    - &n: Underline
+#    - &o: Italic
+#    - &k: Obfuscated
+#    - &r: Reset formatting
+
+# End of Configuration File
