@@ -40,22 +40,22 @@ permissions:
 # - Use color codes (e.g., &7 for gray, &a for green) to style your messages.
 
 # Example: Discord Command
-# Usage: /esm discord
+# Usage: /discord
 discord:
   message: "&7Join our Discord at discord.gg/example" # Message displayed when the command is executed.
 
 # Example: Website Command
-# Usage: /esm website
+# Usage: /website
 website:
   message: "&aVisit our website: example.com" # Message displayed when the command is executed.
 
 # Example: Custom Command 1
-# Usage: /esm example1
+# Usage: /example1
 example1:
   message: "&7This is an example!" # Message displayed when the command is executed.
 
 # Example: Custom Command 2
-# Usage: /esm example2
+# Usage: /example2
 example2:
   message: "&7This is another example!" # Message displayed when the command is executed.
 
