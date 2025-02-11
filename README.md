@@ -1,6 +1,6 @@
 # EasySocialMedia Plugin
 
-![Version](https://img.shields.io/badge/Version-1.2-green.svg)  
+![Version](https://img.shields.io/badge/Version-1.3-green.svg)  
 ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
 EasySocialMedia is a lightweight and customizable Minecraft plugin designed to help server admins share social media links and other important information with players through simple commands.
