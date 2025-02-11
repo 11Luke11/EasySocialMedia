@@ -1,67 +1,24 @@
-# EasySocialMedia Messages File
-# This file contains all the messages used by the plugin.
-# You can customize these messages to match your server's style.
+# EasySocialMedia Messages
+# Customize plugin messages here
 
-# ========================
-# General Messages
-# ========================
+messages:
+  # General messages
+  plugin-enabled: "&aEasySocialMedia v1.0 enabled!"
+  no-permission: "&cYou don't have permission!"
+  config-reloaded: "&aConfiguration reloaded!"
+  config-reloading: "&eReloading configuration..."
+  unknown-command: "&cUnknown command!"
 
-# Message displayed when a player doesn't have permission to use a command.
-no-permission: "&cYou don't have permission to use this command!"
+  # Help menu
+  help:
+    - "&6&lSocial Media Help"
+    - "&e/{main} reload &7- Reload configuration"
+    - "&e/{social} &7- Show social links"
 
-# Message displayed when the configuration and messages are successfully reloaded.
-config-reloaded: "&aConfiguration and messages reloaded successfully!"
+  # Social media display
+  socialmedia:
+    - "&6&lOur Social Media"
+    - "&7Available platforms: {commands}"
 
-# Message displayed when the plugin is enabled.
-plugin-enabled: "&aEasySocialMedia has been enabled!"
-
-# ========================
-# Help Menu
-# ========================
-
-# Help menu displayed when using /{main} help.
-# Placeholders:
-# - {main}: Replaced with the main command name (e.g., /esm).
-help:
-  - "&6&lAdmin Commands" # Header for admin commands.
-  - "&a/{main} help &7- Show this help" # Help command.
-  - "&a/{main} reload &7- Reload config" # Reload command.
-  - "&6&lUser Commands" # Header for user commands.
-  - "&7Use &e/{social} &7to see the social media links." # Instructions for users.
-
-# ========================
-# Social Media Menu
-# ========================
-
-# Social media menu displayed when using /{social}.
-# Placeholders:
-# - {commands}: Replaced with a list of available social media commands.
-socialmedia:
-  - "&6&lSocial Media Links" # Header for social media links.
-  - "&e{commands}" # List of commands (e.g., /esm discord, /esm website).
-
-# Separator used between commands in the social media menu.
-# Example: "discord, website, example1"
-command-list-separator: "&7, &e"
-
-# ========================
-# Notes
-# ========================
-
-# 1. Customize the messages to match your server's theme or language.
-# 2. Use placeholders like {main} and {social} to dynamically insert command names.
-# 3. Use color codes to style your messages:
-#    - &a: Green
-#    - &7: Gray
-#    - &c: Red
-#    - &e: Yellow
-#    - &b: Aqua
-#    - &f: White
-#    - &0: Black
-#    - &l: Bold
-#    - &n: Underline
-#    - &o: Italic
-#    - &k: Obfuscated
-#    - &r: Reset formatting
-
-# End of Messages File
+  # Formatting
+  command-list-separator: "&7, "
