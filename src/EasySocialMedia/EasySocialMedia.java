@@ -27,7 +27,7 @@ public class EasySocialMedia extends JavaPlugin {
                 getLogger().info(messageManager.getMessage("plugin-enabled"));
 
                 if(configManager.isUpdateCheckerEnabled()) {
-                    new UpdateChecker(this, 12345).checkForUpdates();
+                    new UpdateChecker(this, 122333).checkForUpdates();
                 }
             });
         });
